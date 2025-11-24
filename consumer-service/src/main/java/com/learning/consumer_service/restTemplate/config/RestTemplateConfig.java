@@ -1,4 +1,4 @@
-package com.learning.consumer_service.config;
+package com.learning.consumer_service.restTemplate.config;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;

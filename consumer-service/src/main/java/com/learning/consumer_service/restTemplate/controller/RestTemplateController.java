@@ -1,4 +1,4 @@
-package com.learning.consumer_service.controller;
+package com.learning.consumer_service.restTemplate.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
