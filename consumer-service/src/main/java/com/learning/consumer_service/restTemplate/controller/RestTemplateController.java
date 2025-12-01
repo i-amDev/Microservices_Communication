@@ -13,9 +13,15 @@ public class RestTemplateController {
 
     private final RestTemplate restTemplate;
 
+//    @GetMapping("/getInstance")
+//    public String getInstance() {
+//        String response = restTemplate.getForObject("http://localhost:8081/instance", String.class);
+//        return response;
+//    }
+
     @GetMapping("/getInstance")
     public String getInstance() {
-        String response = restTemplate.getForObject("http://localhost:8081/instance", String.class);
+        String response = restTemplate.getForObject("http://producer-service/instance", String.class);
         return response;
     }
 
