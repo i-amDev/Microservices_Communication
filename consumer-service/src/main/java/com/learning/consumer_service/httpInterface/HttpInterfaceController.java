@@ -16,5 +16,4 @@ public class HttpInterfaceController {
     public String getInstance() {
         return httpInterfaceProvider.getInstance();
     }
-
 }
