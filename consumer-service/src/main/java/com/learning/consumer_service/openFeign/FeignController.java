@@ -16,5 +16,4 @@ public class FeignController {
     public String getInstanceInfo() {
         return openFeignClient.getInstance();
     }
-
 }
