@@ -18,5 +18,4 @@ public class RestClientConfig {
     public RestClient restClient(RestClient.Builder builder) {
         return builder.baseUrl("http://producer-service").build();
     }
-
 }
