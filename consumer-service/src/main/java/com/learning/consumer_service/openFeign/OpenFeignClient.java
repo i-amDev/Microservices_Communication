@@ -9,5 +9,4 @@ public interface OpenFeignClient {
 
     @GetMapping("/instance")
     String getInstance();
-
 }
