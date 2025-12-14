@@ -28,5 +28,4 @@ public class RestClientController {
     public String getInstance() {
         return restClientProvider.getInstanceInfo();
     }
-
 }
