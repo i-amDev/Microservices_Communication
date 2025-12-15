@@ -24,5 +24,4 @@ public class RestTemplateController {
         String response = restTemplate.getForObject("http://producer-service/instance", String.class);
         return response;
     }
-
 }
