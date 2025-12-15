@@ -16,5 +16,4 @@ public class RestClientProvider {
                 .retrieve()
                 .body(String.class);
     }
-
 }
