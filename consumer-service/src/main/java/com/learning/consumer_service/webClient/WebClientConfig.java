@@ -18,5 +18,4 @@ public class WebClientConfig {
     public WebClient webClient(WebClient.Builder builder) {
         return builder.baseUrl("http://producer-service").build();
     }
-
 }
